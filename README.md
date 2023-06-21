@@ -1,8 +1,12 @@
 # Termux-Zsh
 
+![](https://raw.githubusercontent.com/atamshkai/Termux-Zsh/main/Screenshot_2023-06-22-01-02-48-340_com.termux.jpg)
+
 If you want to use zsh like original termux,this is for you.
 
 # Installation
+
+```
 
 pkg up -y && pkg i -y zsh wget
 
@@ -13,3 +17,5 @@ tar -xvJf zsh.tar.xz && mv zsh/.* ~/ && rm -rf zsh
 chsh -s zsh
 
 exit
+
+```
