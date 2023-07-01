@@ -59,8 +59,7 @@ apk add zsh wget && echo "exec zsh" >>~/.bash_profile
 
 wget https://github.com/atamshkai/Termux-Zsh/raw/main/zsh.tar.xz
 
-tar -xvJf zsh.tar.xz && mv zsh/.* ~/ && 
-rm -rf zsh
+tar -xvJf zsh.tar.xz && mv zsh/.* ~/ && rm -rf zsh
 
 exit
 
