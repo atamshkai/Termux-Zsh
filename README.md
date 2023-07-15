@@ -30,7 +30,7 @@ wget https://github.com/atamshkai/Termux-Zsh/raw/main/zsh.tar.xz
 
 tar -xvJf zsh.tar.xz && mv zsh/.* ~/ && rm -rf zsh
 
-chsh -s /bin/zsh
+chsh -s /usr/bin/zsh
 
 exit
 
