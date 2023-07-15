@@ -58,7 +58,7 @@ exit
 # For Alpine Linux
 
 ```
-apk add zsh wget && echo "exec zsh" >>~/.bash_profile
+apk add zsh wget && echo "exec zsh" >>/etc/profile
 
 wget https://github.com/atamshkai/Termux-Zsh/raw/main/zsh.tar.xz
 
