@@ -7,16 +7,21 @@ If you want to use zsh like original termux,this is for you.
 # Installation
 
 ```
-
 pkg up -y && pkg i -y zsh wget
-
+```
+```
 wget https://github.com/atamshkai/Termux-Zsh/raw/main/zsh.tar.xz
-
+```
+```
 tar -xvJf zsh.tar.xz && mv zsh/.* ~/
+```
+```
 rm -rf zsh
-
+```
+```
 chsh -s zsh
-
+```
+```
 exit
 
 ```
@@ -24,16 +29,21 @@ exit
 # For Debian Linux
 
 ```
-
 apt update -y && apt install -y zsh wget
-
+```
+```
 wget https://github.com/atamshkai/Termux-Zsh/raw/main/zsh.tar.xz
-
+```
+```
 tar -xvJf zsh.tar.xz && mv zsh/.* ~/
+```
+```
 rm -rf zsh
-
+```
+```
 chsh -s /usr/bin/zsh
-
+```
+```
 exit
 
 ```
@@ -41,16 +51,21 @@ exit
 # For Archlinux
 
 ```
-
 pacman -Syu --noconfirm && pacman -S zsh wget --noconfirm
-
+```
+```
 wget https://github.com/atamshkai/Termux-Zsh/raw/main/zsh.tar.xz
-
+```
+```
 tar -xvJf zsh.tar.xz && mv zsh/.* ~/
+```
+```
 rm -rf zsh
-
+```
+```
 chsh -s /bin/zsh
-
+```
+```
 exit
 
 ```
@@ -59,11 +74,17 @@ exit
 
 ```
 apk add zsh wget && echo "exec zsh" >>/etc/profile
-
+```
+```
 wget https://github.com/atamshkai/Termux-Zsh/raw/main/zsh.tar.xz
-
+```
+```
 tar -xvJf zsh.tar.xz && mv zsh/.* ~/
+```
+```
 rm -rf zsh
+```
+```
 exit
 
 ```
@@ -71,14 +92,20 @@ exit
 # For Fedora
 
 ```
-dnf install zsh wget 
-
+dnf install zsh wget
+```
+```
 wget https://github.com/atamshkai/Termux-Zsh/raw/main/zsh.tar.xz
-
+```
+```
 tar -xvJf zsh.tar.xz && mv zsh/.* ~/
+```
+```
 rm -rf zsh
-
+```
+```
 chsh -s /bin/zsh
-
+```
+```
 exit
 ```
