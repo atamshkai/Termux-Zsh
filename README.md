@@ -13,10 +13,7 @@ pkg up -y && pkg i -y zsh wget
 wget https://github.com/atamshkai/Termux-Zsh/raw/main/zsh.tar.xz
 ```
 ```
-tar -xvJf zsh.tar.xz && mv zsh/.* ~/
-```
-```
-rm -rf zsh
+tar -xvJf zsh.tar.xz
 ```
 ```
 chsh -s zsh
@@ -35,10 +32,7 @@ apt update -y && apt install -y zsh wget
 wget https://github.com/atamshkai/Termux-Zsh/raw/main/zsh.tar.xz
 ```
 ```
-tar -xvJf zsh.tar.xz && mv zsh/.* ~/
-```
-```
-rm -rf zsh
+tar -xvJf zsh.tar.xz
 ```
 ```
 chsh -s /usr/bin/zsh
@@ -57,10 +51,7 @@ pacman -Syu --noconfirm && pacman -S zsh wget --noconfirm
 wget https://github.com/atamshkai/Termux-Zsh/raw/main/zsh.tar.xz
 ```
 ```
-tar -xvJf zsh.tar.xz && mv zsh/.* ~/
-```
-```
-rm -rf zsh
+tar -xvJf zsh.tar.xz
 ```
 ```
 chsh -s /bin/zsh
@@ -79,10 +70,7 @@ apk add zsh wget && echo "exec zsh" >>/etc/profile
 wget https://github.com/atamshkai/Termux-Zsh/raw/main/zsh.tar.xz
 ```
 ```
-tar -xvJf zsh.tar.xz && mv zsh/.* ~/
-```
-```
-rm -rf zsh
+tar -xvJf zsh.tar.xz
 ```
 ```
 exit
@@ -98,10 +86,7 @@ dnf install zsh wget
 wget https://github.com/atamshkai/Termux-Zsh/raw/main/zsh.tar.xz
 ```
 ```
-tar -xvJf zsh.tar.xz && mv zsh/.* ~/
-```
-```
-rm -rf zsh
+tar -xvJf zsh.tar.xz
 ```
 ```
 chsh -s /bin/zsh
